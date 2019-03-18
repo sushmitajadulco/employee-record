@@ -1,0 +1,194 @@
+.nav-pills-custom>li>a {
+	color: lightgrey;
+}
+
+.nav-pills-custom>li>a:focus,
+.nav-pills-custom>li>a:hover {
+	background: none;
+}
+
+span.like:hover,
+span.like:focus {
+	color: #aa2027;
+}
+
+span.retweet:hover,
+span.retweet:focus {
+	color: #20cf1a;
+}
+
+span.reply:hover,
+span.reply:focus {
+	color: #5a63e6;
+}
+
+span.message:hover,
+span.reply:focus {
+	color: #e91818;
+}
+
+.panel-custom>.panel-heading {
+	background: none;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #e0ebf5;
+}
+
+.form-control-nav {
+	border: lightgrey solid 1px;
+	border-radius: 5%;
+}
+
+.mini-avatar {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default {
+	background-color: white;
+}
+
+.employee-form {
+	margin: 20px;
+}
+
+/* .panel-footer {
+	background-color: #f3f5f5;
+}
+
+.well {
+	background-color: #f3f5f5;
+}
+
+a {
+	color: #60A6C1;
+}
+
+div.panel-heading {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.form-control-feedback {
+	line-height: 27px;
+	font-size: 15px;
+}
+
+.panel-info {
+	border: 1px lightgrey solid;
+}
+
+.description {
+	color: #98999b;
+	font-size: 12px;
+	text-align: left;
+}
+
+.logo {
+	text-align: center;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	margin: 0.5% 0 0 15%;
+	color: #1DA1F2;
+	font-size: 25px;
+}
+
+.profile-panel {
+	display: block;
+}
+
+.avatar {
+	height: 80px;
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	top: 18%;
+	left: 10%;
+}
+
+.cover-photo {
+	height: 150px;
+	width: 100%;
+}
+
+.profile-name {
+	margin-left: 35%;
+	width: 100%;
+	height: 50px;
+	top: -10px;
+}
+
+.profile-name h3 {
+	margin: 0;
+}
+
+.navbar-default .navbar-nav>.active a {
+	border-bottom: 4px #1DA1F2 solid;
+
+}
+
+.trends ul li {
+	margin: 5px 0;
+}
+
+.image-size-64 {
+	height: 64px;
+	width: 64px;
+}
+
+.img-rounded {
+	border-radius: 50%;
+}
+
+.media-body p {
+	font-size: 12px;
+}
+
+.tweet-heading {
+	display: inline;
+}
+
+.gray {
+	color: #ada9a9;
+}
+
+.image-size-32 {
+	height: 32px;
+	width: 32px;
+}
+
+.tweet-options {
+	overflow: hidden;
+}
+
+.tweet-custom {
+	float: left;
+}
+
+.tweet-button {
+	float: right;
+}
+
+.tweet-options .tweet-custom span {
+	font-size: 25px;
+	margin: 5px 0 0 30px;
+}
+
+.modal-header {
+	text-align: center;
+}
+.user-stats {
+	text-align: center;
+} */

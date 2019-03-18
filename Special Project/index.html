@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Employee App</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#twitter-menu"
+				 aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" aria-expanded="true" id="twitter-menu">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#"><span class="glyphicon glyphicon-edit"></span>Add Employee</a>
+					</li>
+					<li>
+						<a href="search-page.html"><span class="glyphicon glyphicon-search"></span>Search Employee</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="panel panel-default">
+					<div class="employee-form">
+						<h3>Add employee Information:</h3>
+						<form id="employee-form">
+							<div class="form-group">
+								<label for="first-name">First Name: </label>
+								<input type="text" class="form-control" id="first-name" placeholder="First name">
+							</div>
+							<div class="form-group">
+								<label for="last-name">Last Name: </label>
+								<input type="text" class="form-control" id="last-name" placeholder="Last name">
+							</div>
+							<div class="form-group">
+								<label for="contact-number">Contact Number: </label>
+								<input type="text" class="form-control" id="contact-number" placeholder="Contact number">
+							</div>
+							<div class="form-group">
+								<label for="address">Address: </label>
+								<input type="text" class="form-control" id="address" placeholder="Address">
+							</div>
+							<div class="form-group">
+								<label for="supervisor">Select list:</label>
+								<select class="form-control" id="supervisor">
+								</select>
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyDSduivecynPW8uSRwIDrD-hu7T9hixMFY",
+			authDomain: "special-project-6b5df.firebaseapp.com",
+			databaseURL: "https://special-project-6b5df.firebaseio.com",
+			projectId: "special-project-6b5df",
+			storageBucket: "special-project-6b5df.appspot.com",
+			messagingSenderId: "614434625218"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
